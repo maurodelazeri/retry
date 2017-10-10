@@ -1,9 +1,3 @@
 # glide
-.glide
-vendor
-
-# goreleaser
-/dist/
-
-# go test
-*coverage*.out
+/.glide/
+/vendor/
