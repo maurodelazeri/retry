@@ -1,5 +1,5 @@
-hash: 0b5c4fc3306b00e0a436f850830da6e18839dc5bb28a0800d526667540a73a5c
-updated: 2017-10-10T14:50:40.433120304+03:00
+hash: 6b58f7265753081c3d5d1e1e61d5c6e0602d40c25e352b392982080bc50b4d3a
+updated: 2017-10-10T15:09:05.614074008+03:00
 imports:
 - name: github.com/ae6rt/retry
   version: 340ac281720ed4c20c7b1093d9a80618c53177eb
@@ -12,7 +12,7 @@ imports:
 - name: github.com/bernos/go-retry
   version: 5c5b1f97512c9dc2406b2c77edc1284eb63847eb
 - name: github.com/cenkalti/backoff
-  version: 5d150e7eec023ce7a124856b37c68e54b4050ac7
+  version: 61ba96c4d1002f22e06acb8e34a7650611125a63
 - name: github.com/dgrijalva/retry
   version: ef012c8afd3f69ebcf28859766d025a9802ab575
 - name: github.com/drichardson/retry
@@ -28,7 +28,7 @@ imports:
 - name: github.com/go-retry/retry
   version: 01631078ef2fdce601e38cfe5f527fab24c9a6d2
 - name: github.com/h2non/gentleman-retry
-  version: 075a2da4557bd13331fb4bedce75d5951326f717
+  version: 6533f0ca1f2fc9f7862fb4efcdd3364e1f2f22ae
 - name: github.com/juju/retry
   version: 1998d01ba1c3eeb4a4728c4a50660025b2fe7c8f
 - name: github.com/linyows/go-retry
@@ -46,7 +46,7 @@ imports:
 - name: github.com/rogpeppe/retry
   version: feb1263b8bc9e4144204ee91edbe471750bf4b42
 - name: github.com/sethgrid/pester
-  version: 99271bb5a99e5769f688c483eabb3c22d71ebf93
+  version: 0af5bab1e1ea2860c5aef8e77427bab011d774d8
 - name: github.com/Songmu/retry
   version: 3d913ef13826a2183b18cbfb88925a7735bf3635
 - name: github.com/technoweenie/httpretry

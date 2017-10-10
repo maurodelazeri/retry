@@ -8,7 +8,7 @@ All examined packages are presented in [glide.yaml](glide.yaml).
 You can install them by run `glide install`.
 
 - [ ] [github.com/Rican7/retry](https://github.com/Rican7/retry)
-- [ ] [github.com/eapache/go-resiliency/retrier.Retrier](https://github.com/eapache/go-resiliency/blob/master/retrier/retrier.go)
+- [ ] [github.com/eapache/go-resiliency/retrier](https://github.com/eapache/go-resiliency/blob/b1fe83b/retrier)
 - [ ] [github.com/sethgrid/pester](https://github.com/sethgrid/pester)
 - [ ] [github.com/aybabtme/untilitworks](https://github.com/aybabtme/untilitworks)
 - [ ] [github.com/Songmu/retry](https://github.com/Songmu/retry)
