@@ -1,9 +1,9 @@
 package: github.com/kamilsk/retry/research
 import:
 - package: github.com/Rican7/retry
-- package: github.com/andrew-plunk/retry
 - package: github.com/Songmu/retry
 - package: github.com/ae6rt/retry
+- package: github.com/andrew-plunk/retry
 - package: github.com/aybabtme/untilitworks
 - package: github.com/azr/retry
 - package: github.com/bernos/go-retry
@@ -23,6 +23,7 @@ import:
 - package: github.com/maraino/retry
 - package: github.com/matryer/try
 - package: github.com/mulib/retry
+- package: github.com/rafaeljesus/retry-go
 - package: github.com/rogpeppe/retry
 - package: github.com/sethgrid/pester
 - package: github.com/technoweenie/httpretry
