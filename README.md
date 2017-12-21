@@ -1,9 +1,9 @@
-> # retry/research
->
+> # retry/research [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Functional%20mechanism%20based%20on%20channels%20to%20perform%20actions%20repetitively%20until%20successful.&url=https://github.com/kamilsk/retry&via=ikamilsk&hashtags=go,repeat,retry,backoff,jitter)
+> [![Analytics](https://ga-beacon.appspot.com/UA-109817251-1/retry/research?pixel)](https://github.com/igrigorik/ga-beacon)
 > Examined articles and packages.
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/octolab)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Implementations
 
@@ -45,5 +45,3 @@ You can install them by run `glide install`.
 ## Notes
 
 - made with ❤️ by [OctoLab](https://www.octolab.org/)
-
-[![Analytics](https://ga-beacon.appspot.com/UA-109817251-1/retry/research)](https://github.com/igrigorik/ga-beacon)
