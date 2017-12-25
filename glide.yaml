@@ -26,4 +26,15 @@ import:
 - package: github.com/rafaeljesus/retry-go
 - package: github.com/rogpeppe/retry
 - package: github.com/sethgrid/pester
+- package: github.com/ssgreg/repeat
 - package: github.com/technoweenie/httpretry
+
+- package: github.com/kamilsk/retry
+  version: dev
+- package: github.com/lazada/awg
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/sync
+  subpackages:
+  - errgroup

@@ -1,5 +1,5 @@
-hash: 844246ed832a84aaf91f19416895f51d03593d86e84c8113da484e8e88ca8d99
-updated: 2017-12-14T10:45:39.120294+03:00
+hash: 54e267f4b7e85ea4db6fb2994997ce4ceea9c3a4474c20c6987d886ee1e73d4d
+updated: 2017-12-25T15:00:15.662274+03:00
 imports:
 - name: github.com/ae6rt/retry
   version: 340ac281720ed4c20c7b1093d9a80618c53177eb
@@ -12,7 +12,7 @@ imports:
 - name: github.com/bernos/go-retry
   version: 5c5b1f97512c9dc2406b2c77edc1284eb63847eb
 - name: github.com/cenkalti/backoff
-  version: 309aa717adbf351e92864cbedf9cca0b769a4b5a
+  version: 2ea60e5f094469f9e65adb9cd103795b73ae743e
 - name: github.com/dgrijalva/retry
   version: ef012c8afd3f69ebcf28859766d025a9802ab575
 - name: github.com/drichardson/retry
@@ -31,6 +31,10 @@ imports:
   version: 6533f0ca1f2fc9f7862fb4efcdd3364e1f2f22ae
 - name: github.com/juju/retry
   version: 1998d01ba1c3eeb4a4728c4a50660025b2fe7c8f
+- name: github.com/kamilsk/retry
+  version: 6abebb78f07af82b2c4772c37dadcf362db87886
+- name: github.com/lazada/awg
+  version: a74bd21c83596ea4bfff55cb48046430bab20f6f
 - name: github.com/linyows/go-retry
   version: dc558f4c6485d7a611118f06db3ea1178fe418a7
 - name: github.com/lytics/retry
@@ -42,7 +46,7 @@ imports:
 - name: github.com/mulib/retry
   version: 38083434e0898e198313fd6da7edbd8521c630db
 - name: github.com/rafaeljesus/retry-go
-  version: fe0dbc0a39d94ca9c88760b7fccdbc6b329e2abb
+  version: 5981a380a87925ee03a78a7ff13574fabc804837
 - name: github.com/Rican7/retry
   version: 272ad122d6e5ce1be757544007cf8bcd1c9c9ab0
 - name: github.com/rogpeppe/retry
@@ -51,6 +55,16 @@ imports:
   version: 760f8913c0483b776294e1bee43f1d687527127b
 - name: github.com/Songmu/retry
   version: 3d913ef13826a2183b18cbfb88925a7735bf3635
+- name: github.com/ssgreg/repeat
+  version: 1e823378372bd8cee48b8a5ad0eb722dc27ab9c9
 - name: github.com/technoweenie/httpretry
   version: 8b5e81f44aedb09f45acce2a60b367f1ac5a27cb
+- name: golang.org/x/net
+  version: d866cfc389cec985d6fda2859936a575a55a3ab6
+  subpackages:
+  - context
+- name: golang.org/x/sync
+  version: fd80eb99c8f653c847d294a001bdf2a3a6f768f5
+  subpackages:
+  - errgroup
 testImports: []

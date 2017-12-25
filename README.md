@@ -34,6 +34,7 @@ You can install them by run `glide install`.
 - [ ] [github.com/rafaeljesus/retry-go](https://github.com/rafaeljesus/retry-go)
 - [ ] [github.com/rogpeppe/retry](https://github.com/rogpeppe/retry)
 - [ ] [github.com/sethgrid/pester](https://github.com/sethgrid/pester)
+- [ ] [github.com/ssgreg/repeat](https://github.com/ssgreg/repeat)
 - [ ] [github.com/technoweenie/httpretry](https://github.com/technoweenie/httpretry)
 
 ## Feedback
