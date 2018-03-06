@@ -7,9 +7,6 @@
 
 ## Implementations
 
-All examined packages are presented in the [glide.yaml](glide.yaml) file.
-You can install them by running the command `glide install`.
-
 - [ ] [github.com/Rican7/retry](https://github.com/Rican7/retry)
   - [ ] [github.com/andrew-plunk/retry](https://github.com/andrew-plunk/retry)
 - [ ] [github.com/Songmu/retry](https://github.com/Songmu/retry)
