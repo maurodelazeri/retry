@@ -1,0 +1,8 @@
+# dep
+vendor/
+
+# goreleaser
+/dist/
+
+# go test and code quality report
+*.out

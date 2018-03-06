@@ -22,12 +22,12 @@ import:
 - package: github.com/lytics/retry
 - package: github.com/maraino/retry
 - package: github.com/matryer/try
-- package: github.com/mulib/retry
 - package: github.com/rafaeljesus/retry-go
 - package: github.com/rogpeppe/retry
 - package: github.com/sethgrid/pester
 - package: github.com/ssgreg/repeat
 - package: github.com/technoweenie/httpretry
+- package: github.com/thedevsaddam/retry
 
 - package: github.com/kamilsk/retry
   version: dev

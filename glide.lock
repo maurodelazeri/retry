@@ -1,5 +1,5 @@
-hash: 54e267f4b7e85ea4db6fb2994997ce4ceea9c3a4474c20c6987d886ee1e73d4d
-updated: 2017-12-25T15:00:15.662274+03:00
+hash: f991bbf895b417c0d088a3ecfc1d219026a8a01fa402456ccdd02421daf9f67d
+updated: 2018-03-06T14:19:37.912561+03:00
 imports:
 - name: github.com/ae6rt/retry
   version: 340ac281720ed4c20c7b1093d9a80618c53177eb
@@ -18,7 +18,7 @@ imports:
 - name: github.com/drichardson/retry
   version: 30dabe13157e4a166adc0af4bd23f2f8e54f5cf2
 - name: github.com/eapache/go-resiliency
-  version: b1fe83b5b03f624450823b751b662259ffc6af70
+  version: ef9aaa7ea8bd2448429af1a77cf41b2b3b34bdd6
   subpackages:
   - retrier
 - name: github.com/everalbum/goworker-retry
@@ -26,25 +26,23 @@ imports:
 - name: github.com/giantswarm/retry-go
   version: d78cea247d5e87d005ff7732f88bc52359afbe19
 - name: github.com/go-retry/retry
-  version: 01631078ef2fdce601e38cfe5f527fab24c9a6d2
+  version: 2d7c7c65cc71d024968d9ff4385d5e7ad3a83fcc
 - name: github.com/h2non/gentleman-retry
   version: 6533f0ca1f2fc9f7862fb4efcdd3364e1f2f22ae
 - name: github.com/juju/retry
   version: 1998d01ba1c3eeb4a4728c4a50660025b2fe7c8f
 - name: github.com/kamilsk/retry
-  version: 6abebb78f07af82b2c4772c37dadcf362db87886
+  version: 3664356bb8b920ca63cf0f27b6d6f15f6f7b23fa
 - name: github.com/lazada/awg
   version: a74bd21c83596ea4bfff55cb48046430bab20f6f
 - name: github.com/linyows/go-retry
-  version: dc558f4c6485d7a611118f06db3ea1178fe418a7
+  version: 9186a7453b3f3636538c8b2cd7d567c90a549504
 - name: github.com/lytics/retry
   version: 0757f0de03bfc61150e24a6619d87c4cd14e45e4
 - name: github.com/maraino/retry
   version: 76512d8dad9ed70886f40b940c1756a818af7fb6
 - name: github.com/matryer/try
   version: 9ac251b645a2628ef89dbd2986987cc1299408ff
-- name: github.com/mulib/retry
-  version: 38083434e0898e198313fd6da7edbd8521c630db
 - name: github.com/rafaeljesus/retry-go
   version: 5981a380a87925ee03a78a7ff13574fabc804837
 - name: github.com/Rican7/retry
@@ -52,15 +50,17 @@ imports:
 - name: github.com/rogpeppe/retry
   version: feb1263b8bc9e4144204ee91edbe471750bf4b42
 - name: github.com/sethgrid/pester
-  version: 760f8913c0483b776294e1bee43f1d687527127b
+  version: ed9870dad3170c0b25ab9b11830cc57c3a7798fb
 - name: github.com/Songmu/retry
   version: 3d913ef13826a2183b18cbfb88925a7735bf3635
 - name: github.com/ssgreg/repeat
   version: 1e823378372bd8cee48b8a5ad0eb722dc27ab9c9
 - name: github.com/technoweenie/httpretry
   version: 8b5e81f44aedb09f45acce2a60b367f1ac5a27cb
+- name: github.com/thedevsaddam/retry
+  version: 95c28fad98080b160592df478a6bc41b3993e4fa
 - name: golang.org/x/net
-  version: d866cfc389cec985d6fda2859936a575a55a3ab6
+  version: d25186b37f34ebdbbea8f488ef055638dfab272d
   subpackages:
   - context
 - name: golang.org/x/sync
