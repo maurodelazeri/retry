@@ -34,6 +34,11 @@
 - [ ] [github.com/technoweenie/httpretry](https://github.com/technoweenie/httpretry)
 - [ ] [github.com/thedevsaddam/retry](https://github.com/thedevsaddam/retry)
 
+## TODO
+
+- [ ] classify: support cancellation, etc.
+- [ ] summarization, emojify
+
 ---
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kamilsk/retry)
