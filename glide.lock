@@ -1,5 +1,5 @@
-hash: f991bbf895b417c0d088a3ecfc1d219026a8a01fa402456ccdd02421daf9f67d
-updated: 2018-03-06T14:19:37.912561+03:00
+hash: 133fa7276ed5c32358930f23ff96664a88e20ae7eecf2c7b5a70588594641aaf
+updated: 2018-05-09T21:06:20.892659+03:00
 imports:
 - name: github.com/ae6rt/retry
   version: 340ac281720ed4c20c7b1093d9a80618c53177eb
@@ -18,7 +18,7 @@ imports:
 - name: github.com/drichardson/retry
   version: 30dabe13157e4a166adc0af4bd23f2f8e54f5cf2
 - name: github.com/eapache/go-resiliency
-  version: ef9aaa7ea8bd2448429af1a77cf41b2b3b34bdd6
+  version: ea41b0fad31007accc7f806884dcdf3da98b79ce
   subpackages:
   - retrier
 - name: github.com/everalbum/goworker-retry
@@ -31,12 +31,8 @@ imports:
   version: 6533f0ca1f2fc9f7862fb4efcdd3364e1f2f22ae
 - name: github.com/juju/retry
   version: 1998d01ba1c3eeb4a4728c4a50660025b2fe7c8f
-- name: github.com/kamilsk/retry
-  version: 3664356bb8b920ca63cf0f27b6d6f15f6f7b23fa
-- name: github.com/lazada/awg
-  version: a74bd21c83596ea4bfff55cb48046430bab20f6f
 - name: github.com/linyows/go-retry
-  version: 9186a7453b3f3636538c8b2cd7d567c90a549504
+  version: 684d108e922261bbdf5f98aa63272b342e689114
 - name: github.com/lytics/retry
   version: 0757f0de03bfc61150e24a6619d87c4cd14e45e4
 - name: github.com/maraino/retry
@@ -50,21 +46,17 @@ imports:
 - name: github.com/rogpeppe/retry
   version: feb1263b8bc9e4144204ee91edbe471750bf4b42
 - name: github.com/sethgrid/pester
-  version: ed9870dad3170c0b25ab9b11830cc57c3a7798fb
+  version: 03e26c9abbbf5accb8349790bf9f41bde09d72c3
 - name: github.com/Songmu/retry
   version: 3d913ef13826a2183b18cbfb88925a7735bf3635
 - name: github.com/ssgreg/repeat
-  version: 1e823378372bd8cee48b8a5ad0eb722dc27ab9c9
+  version: fc8e8f629875f1d5a254f582c228a2bdf78ef3b2
 - name: github.com/technoweenie/httpretry
   version: 8b5e81f44aedb09f45acce2a60b367f1ac5a27cb
 - name: github.com/thedevsaddam/retry
-  version: 95c28fad98080b160592df478a6bc41b3993e4fa
+  version: ef6567c54abe765a8b2d17d1f10245b1179932d7
 - name: golang.org/x/net
-  version: d25186b37f34ebdbbea8f488ef055638dfab272d
+  version: f73e4c9ed3b7ebdd5f699a16a880c2b1994e50dd
   subpackages:
   - context
-- name: golang.org/x/sync
-  version: fd80eb99c8f653c847d294a001bdf2a3a6f768f5
-  subpackages:
-  - errgroup
 testImports: []

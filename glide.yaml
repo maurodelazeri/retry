@@ -1,4 +1,8 @@
-package: github.com/kamilsk/retry/research
+package: github.com/kamilsk/retry-research
+
+ignore:
+- github.com/kamilsk/retry
+
 import:
 - package: github.com/Rican7/retry
 - package: github.com/Songmu/retry
@@ -29,12 +33,6 @@ import:
 - package: github.com/technoweenie/httpretry
 - package: github.com/thedevsaddam/retry
 
-- package: github.com/kamilsk/retry
-  version: dev
-- package: github.com/lazada/awg
 - package: golang.org/x/net
   subpackages:
   - context
-- package: golang.org/x/sync
-  subpackages:
-  - errgroup

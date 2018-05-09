@@ -8,12 +8,27 @@ type TemporaryError struct {
 }
 
 func (e *TemporaryError) Error() string {
-	return e.Cause.Error()
+	r := "repeat.temporary"
+	if e.Cause != nil {
+		r += ": " + e.Cause.Error()
+	}
+
+	return r
 }
 
 // HintTemporary makes a TemporaryError.
 func HintTemporary(e error) error {
-	return &TemporaryError{e}
+	return &TemporaryError{Cause(e)}
+}
+
+// IsTemporary checks if passed error is TemporaryError.
+func IsTemporary(e error) bool {
+	switch e.(type) {
+	case *TemporaryError:
+		return true
+	default:
+		return false
+	}
 }
 
 // StopError allows to stop repetition process without specifying a
@@ -25,12 +40,27 @@ type StopError struct {
 }
 
 func (e *StopError) Error() string {
-	return e.Cause.Error()
+	r := "repeat.stop"
+	if e.Cause != nil {
+		r += ": " + e.Cause.Error()
+	}
+
+	return r
 }
 
 // HintStop makes a StopError.
 func HintStop(e error) error {
-	return &StopError{e}
+	return &StopError{Cause(e)}
+}
+
+// IsStop checks if passed error is StopError.
+func IsStop(e error) bool {
+	switch e.(type) {
+	case *StopError:
+		return true
+	default:
+		return false
+	}
 }
 
 // Cause extracts the cause error from TemporaryError and StopError
